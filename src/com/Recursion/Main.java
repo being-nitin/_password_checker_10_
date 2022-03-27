@@ -55,7 +55,7 @@ public class Main {
         if(countC<4){
             return 0;
         }
-        int countD = 0;
+        int countD = 0; // wil count the number of digits.
         for(int i=0;i<=9;i++){
             String st = Integer.toString(i);
             if(str.contains(st)){
