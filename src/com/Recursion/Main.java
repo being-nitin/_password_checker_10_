@@ -65,7 +65,7 @@ public class Main {
         if(countD==0){
             return 0;
         }
-        int countCa=0;
+        int countCa=0; // will count the number of capital alphabets.
         for(int i=65;i<=90;i++){
             char c = (char)i;
             String str1 = Character.toString(c);
