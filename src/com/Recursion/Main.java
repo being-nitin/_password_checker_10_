@@ -43,12 +43,14 @@ public class Main {
       Sample Output 0
       1
 	 */
-
-   String str = "a987aBc012";
+        String str = "a987aAc012";
         System.out.println(validPassword(str));
     }
     public static int validPassword(String str){
         int countC = 0;  // will count the number of characters.
+        if(str==null){
+            return 0;
+        }
         for(int i=0;i<str.length();i++){
             countC++;
         }
