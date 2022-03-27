@@ -48,7 +48,7 @@ public class Main {
         System.out.println(validPassword(str));
     }
     public static int validPassword(String str){
-        int countC = 0;
+        int countC = 0;  // will count the number of characters.
         for(int i=0;i<str.length();i++){
             countC++;
         }
